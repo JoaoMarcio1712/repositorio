@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-Formatação</h2>
+    <p>Para representar-mos um codigo, seja ele de html, php, pyton.. entre outros. <br> Podemos usar a tag &lt;pre&gt; (que deixa a leitura do codigo mais facil <i>"Arrumado"</i>) <br> e a tag &lt;code&gt; (que muda a fonte das letras para que fique mais facil de entender) <br> siga  exemplo a seguir usando os 2 codigos</p>
+    <pre>
+        <code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="pt-br"&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; 
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        <mark style="background-color: rgb(0, 255, 213);">&lt;title&gt;Minhas Anotações&lt;/title&gt;</mark>
+        &lt;link rel="shortcut icon" href="ifi.ico" type="image/x-icon" &gt;
+    &lt;/head&gt;
+        </code>
+    </pre>
+    <p><mark style="background-color: rgba(128, 128, 128, 0.363);"><strong>Caso o contrario, o codigo ficaria assim:</strong></mark> <br>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="pt-br"&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; 
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            <mark style="background-color: rgb(0, 255, 213);">&lt;title&gt;Minhas Anotações&lt;/title&gt;</mark>
+            &lt;link rel="shortcut icon" href="ifi.ico" type="image/x-icon" &gt;
+        &lt;/head&gt;</p>
+        <h2>Citações</h2>
+        <p>Como diria o pai de um amigo:<q>O computador é um burro muito rapido</q>. <br> Para citarmos a frase do pai do amigo, usamos a tag &lt;q&gt; que da o sentido de citação para aquela frase <br> <small><i>OBS: não coloquei " " manualmente, isso a tag &lt;q&gt; ja faz automatico para dar o sentido de citação</i></small></p>
+        <h2>Citações completas</h2>
+        <p>Para citarmos uma frase de um livro como por exemplo, usamos a tag &lt;blockquote&gt; que nos da uma citação "mais avançada". <br>veja a seguir: <br> Segundo o autor do livro HTML5 & css3 For Dummies, ele diz: 
+            <blockquote cite="https://books.google.com.br/books?id=rf9dAAAAQBAJ&newbks=1&newbks_redir=0&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">
+                Think of book as a friendly, approachable
+            </blockquote><br>
+        Como você pode ver, a tag destaca a frase em um bloco a baixo, uma curiosidade sobre essa tag; É que ela tem um parâmetro que se chama "cite" no qual podemos citar o endereço URL que hospeda o que foi referenciado com o &lt;blockquote&gt;</p>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language"> HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, e eu estou adorando <br>
+        Nesse paragrafo, eu usei a tag &lt;abbr&gt; que da um significado a palavra que você quer, a tag na pratica ficaria aassim <br>
+        <pre>
+            <code>
+&lt;abbr title="<mark style="background-color: rgba(128, 128, 128, 0.301);">significado da palavra</mark>"&gt;<mark style="background-color: rgba(128, 128, 128, 0.301);">Palavra desejada para dar significado</mark>&lt;/abbr&gt;
+
+            </code>
+        </pre>
+    </p>
+        <h2>Texto Invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas com HTML</bdo>. <br>
+        Nesse paragrafo, usei a tag &lt;bdo&gt; com o parametro "dir=<abbr title="right to left=Direita para Esquerda">rtl</abbr>". que no caso deixa ao contrario </p>
+        <abbr title="Html5"><img src="emmet-multi-cursor.gif" alt="html"></abbr>
+    
+</body>
+</html>

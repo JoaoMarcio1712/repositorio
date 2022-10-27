@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../imagens/9.ico" type="image/x-icon">
+    <title>Caixas</title>
+</head>
+<body>
+    <main>
+        <h1 class="destaque">Trabalhando com caixas</h1>
+        <h2>Utilização semantica da tag &lt;div&gt;</h2>
+        <p>A tag &lt;div&gt;, é normalmente usada para criar divisões, essas divisões, por separar o conteudo, deixa mais facil a customização em css, veja aguns exemplos a seguir:</p>
+        <pre>
+            <code></code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-br"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Document&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    <mark>&lt;div class="titulo"&gt;</mark>
+
+                    <mark>&lt;/div&gt;</mark>
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+        <p>Na &lt;div&gt; marcada acima, se nota um parametro dentro da tag <i style="font-size: 1.3em;">class</i>, esse parâmetro é usado para definir um aclasse para essa tag paara que possamos edittar em css por classes, e nao por tag's,</p>
+        <p>Temos também o <i style="font-size: 1.3em;">id</i>, id é um identificador, geralmente usado para definir uma unica coisa, como por exemplo: "cabeçalho, corpo, rodapé"</p>
+        <p>Temos tambem as div's semanticas como "&lt;header&gt;" "&lt;main&gt;" "&lt;footer&gt;", que respectivamente são: cabeçalho, corpo e rodapé, assim inutilizando colocar classes ou id's com esses nomes, veja um exemplo a seguir:</p>
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-br"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Document&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    <mark style="background-color: cyan;">&lt;main&gt;</mark>
+                    <mark>&lt;div class="titulo"&gt;</mark>
+
+                    <mark>&lt;/div&gt;</mark>
+                    <mark style="background-color: cyan;">&lt;/main&gt;</mark>
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+        <p>Como</p>
+        
+    </main>
+    <div class="voltar"><a href="../hub.html">Voltar</a></div>
+</body>
+</html>

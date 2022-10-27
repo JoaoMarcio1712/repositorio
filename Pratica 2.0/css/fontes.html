@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Imagens/css.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+        h2, p1{font-family: 'Nanum Pen Script', cursive;}
+        p1{
+            font-size: medium;
+        }
+        
+    </style>
+    <title>Fontes em css</title>
+</head>
+<body>
+    <main>
+        <h1>Importando fontes</h1>
+        <p>Para adicionarmos fontes em nosso site, podemos utilizar o google fonts, de maneira externa ou interna, baixando a tal fonte escolhida, Vou demonstar algumas fontes usadas externamente direto do google fonts</p>
+        <hr>
+        <h2>titulo</h2>
+        <p1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestiae repudiandae dolores itaque, accusamus illo! Animi accusamus corrupti eveniet, odio voluptate reiciendis at voluptatum. Saepe praesentium id tenetur aspernatur eius!, Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quaerat corporis, voluptas laborum ex repellat architecto sunt magnam nemo exercitationem maxime fuga suscipit sint est ratione alias asperiores rem sapiente.</p1>
+        <hr>
+        <p>A cima eu usei uma fonte que teoricamente nao esta instalada localmente, para usar essa fonte de modo esterno, basta ir no google font, escolher uma fonta de seu gosto, e copiar o codigo de incorporação, uma linha de regra geral e outra para aplicar a fonte aonde desejar, o codigo em css ficou assim:</p>
+        <pre>
+            <code>
+                &lt;style&gt;
+                    <mark><abbr title="Regra geral">@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');</abbr></mark>
+            
+                    h2, p1<mark><abbr title="linha para aplicar a fonte em si">{font-family: 'Nanum Pen Script', cursive;}</abbr></mark>
+                    body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+                &lt;/style&gt;
+            </code>
+        </pre>
+    </main>
+    <a href="../hub.html"><div class="voltar">Voltar</div></a>
+</body>
+</html>

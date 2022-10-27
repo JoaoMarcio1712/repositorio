@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../imagens/8.ico" type="image/x-icon">
+    <title>formatações</title>
+</head>
+<body>
+    <div class="voltar"><a href="../hub.html">Voltar</a></div>
+    <main>
+        <h1 class="destaque">Inserção de videos em hospedagem propria</h1>
+        <p>Podemos hospedar um video internamente com a tag &lt;video&gt;, <br>
+        Veja a seguir</p>
+            <video src="../midia/meuvideo.mp4" width="500" controls type="video/mp4"></video>
+        <p>Nesse caso, eu usei a tag &lt;video src="<abbr title="contanto que esteja em seus arquivos relacionado a pagina">VIDEO DESEJADO</abbr>" width="<abbr title="tamanho em pixels"><i>TAMANHO DESEJADO</i></abbr>" <abbr title="Usado para mostrar os comandos">controls</abbr>&gt; </p>
+        <p>Porem o jeito mais certo de fazer isso sem perder compatibilidade com qualquer servidor, <br>
+        é colocando vários formatos de vídeo, caso um navegador não rode algum tipo de formato, <br>
+        tentará rodar algum outro que já esteja em seu servidor, usando a tag &lt;video&gt; como eu mostrarei a seguir:</p>
+        <pre>
+            <code>
+                &lt;video controls&gt;
+                    <abbr title="este sera o primeiro video a ser carregado, caso nao seja compativel com o navegador,tentaracarregar o proximo">&lt;source src="VIDEO DESEJADO" type="TIPO DO VIDEO"&gt;</abbr> 
+                    <abbr title="E assim por diante">&lt;source src="PROXIMO VIDEO A SER ACRREGADO" type="TIPO DO REFERENTE VIDEO"&gt;</abbr>
+                &lt;/video&gt;
+            </code>
+        </pre>
+        <h1 class="destaque">Inserção de videos externos</h1>
+        <p>Para inserir-mos um video de fora da nossa hospedagem, usamos a tag &lt;iframe&gt;</p>
+        
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0"" allowfullscreen></iframe> <br>
+        <p>No exemplo a cima, a tag mencionada fica assim:</p>
+        <pre>
+            <code>
+                &lt;iframe <abbr title="largura do video em pixels"">width="500"</abbr> <abbr title="Autura do video em pixels">height="315"</abbr> src="LINK EXTERNO DO VIDEO" <abbr title="borda do video, 'recomendado a deixar em 0' ">frameborder="0"</abbr> <abbr title="habilita a função de fullscream">allowfullscreen</abbr> &gt;
+            </code>
+        </pre>
+    </main>
+    <div class="voltar"><a href="../hub.html">Voltar</a></div>
+</body>
+</html>

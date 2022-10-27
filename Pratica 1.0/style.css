@@ -1,0 +1,46 @@
+@charset "utf-8";
+body{
+    background-image: linear-gradient(180deg, #000000 30%, rgba(87, 87, 87, 0.877));
+            background-attachment: fixed;  
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;             
+}
+main{
+    background-color: rgb(228, 228, 228);
+    width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+}
+div{margin: auto;
+width: 1200px;}
+p{color: #7d5ba6;}
+strong{color: #2e2e2c;}
+a{color: #48acf0;}
+h1{background-color:#61695a; text-align: center;}
+h2{background-color: #61695a; text-align: center;}
+h3{background-color:#61695a; text-align: center;}
+h4{background-color: #61695a; text-align: center;}
+h5{color: #15b097;}
+h6{color: #48acf0;}
+ul{color: #48acf0;}
+ol{color: #48acf0;}
+li{color: #48acf0;}
+dl{color: #48acf0;}
+dd{color: #48acf0;}
+dt{color: #48acf0;}
+b{color: #f4f3ee;}
+i{color: #2e2e2c;}
+em{color: #2e2e2c;}
+pre{color: rgb(92,69,10);}
+code{color: rgb(92, 69, 10);}
+blockquote{color: #f4f3ee;}
+
+
+
+
+
+
+/* #48acf0, #f4f3ee, #7d5ba6, #353d2f, #15b097 
+linear-gradient: rgb(37,37,37), rgb(97,96,96);*/

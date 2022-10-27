@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de formatação semântica</title>
+    <link rel="shortcut icon" href="../Imagens/2.ico" type="image/x-icon">
+    <meta http-equiv="refresh" content="3; url=formatações.html">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <h1>Principais formatações</h1>
+        <h2>Negrito / Destaque</h2>
+        <p>Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt;. (não semântica) <br> Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag &lt;strong&gt;.(semântica) </p>
+        <h2>Italico / Ênfase</h2>
+        <p>Nesta frase temos um  <i>termo em italico </i>usando a tag &lt;i&gt;. (não semântico) <br> Nesta frase, temos um <em>termo em ênfase</em> usando a rag &lt;em&gt;(semântico). </p>
+        <h2> <mark style="background-color: Red;">Marcando textos</mark> </h2>
+        <p>Aqui eu vou marcar uma frase como marca texto usando a tag &lt;mark&gt; <mark>TEXTO MARCADO</mark><br>
+             e, para mudarmos a cor do marcador, usamos um parametro de css &lt;mark <mark>style="background-color: <i style="color: black;">COR DESEJADA</i>; </mark>" <br>
+            <mark style="background-color: blue;">Como nesse exemplo, usando o comando a cima, colocando a cor azul como marcador </mark>. <br>
+             Caso nao coloque nenhum parâmetro de cor, a cor será automaticamente amarelo
+        </p>
+        <h2>Editando textos</h2>
+        <p>Para aumentar o tamando de uma frase ou palavra usamos a tag &lt;big&gt; <big>como nesse exemplo</big> <mark style="background-color: rgb(0, 255, 213);"><i><b style="
+            color: black;">Porém.. essa tag esta obsoleta</b></i></mark>  <br> Agora... para diminuir-mos uma frase ou palavra, usamos a tag &lt;small&gt; <small><small>como nesse exemplo</small></small> <mark style="background-color: rgb(0, 255, 213);"><b>
+                <i style="color: black;">Essa tag não esta obsoleta</i></b></mark> </p> <!--NAO È CERTO USAR 2 TAG'S UMA DENTRO DA OUTRA, USEI SÓ POR VIA DE EXEMPLO-->
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar um texto como excluido para indicar q ele deve ser lido, mas nao considerado, para isso usamos a tag &lt;del&gt; <del>como nesse exemplo</del>
+        </p>
+        <h2>Texto inserido</h2>
+        <p>Podemos marcar um texto como inserido para dar uma ênfase e indicar que ele foi adicionado depois, para isso usamos a tag &lt;ins&gt; <ins>como nesse exemplo</ins>. <br>
+            Mas para só sublinhar, temos a tag &lt;u&gt;,  <u>porém ela ja esta na lista de tag's obsoletas</u>
+         </p>
+         <h2>Texto Sobrescrito</h2>
+         <p>Para inserir coisas do tipo x<sup>20</sup>+3. Para isso, usamos a tag &lt;sup&gt;, isso indica que o item selecionado deve estar a cima dos demais</p>
+         <h2>Texto subscrito</h2>
+         <p>Para inserir coisas do tipo H<sub>2</sub>O. isso indica que o item sekecionado deve estar a baixo dos demais</p>
+         <h1>Outras formatações</h1> <!--Aqui esta o final do exercicio 8-->
+        <h2>Código-fonte / Pré-Formatação</h2>
+        <p>Para representar-mos um codigo, seja ele de html, php, pyton.. entre outros. <br> Podemos usar a tag &lt;pre&gt; (que deixa a leitura do codigo mais facil <i>"Arrumado"</i>) <br> e a tag &lt;code&gt; (que muda a fonte das letras para que fique mais facil de entender) <br> siga  exemplo a seguir usando os 2 codigos</p>
+        <pre>
+        <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="pt-br"&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        <mark style="background-color: rgb(0, 255, 213);">&lt;title&gt;Minhas Anotações&lt;/title&gt;</mark>
+        &lt;link rel="shortcut icon" href="ifi.ico" type="image/x-icon" &gt;
+        &lt;/head&gt;
+        </code>
+        </pre>
+        <p><strong style="color: black; background-color:#61695a">Caso o contrario, o codigo ficaria assim:</strong> <br> </p>
+        <p style="color: #15b097;">
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="pt-br"&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                <mark style="background-color: rgb(0, 255, 213);">&lt;title&gt;Minhas Anotações&lt;/title&gt;</mark>
+                &lt;link rel="shortcut icon" href="ifi.ico" type="image/x-icon" &gt;
+            &lt;/head&gt;</p>
+            <h2>Texto Invertido</h2>
+            <p><bdo dir="rtl">Estou aprendendo a criar coisas com HTML</bdo>. <br>
+            Nesse paragrafo, usei a tag &lt;bdo&gt; com o parametro "dir=<abbr title="right to left=Direita para Esquerda">rtl</abbr>". que no caso deixa ao contrario </p>
+    </main>
+        <div><a href="../paginaprincipal.html"><img src="../Desafios/imagens-desafio/voltar.png" alt="" width="35" height="35"></a></div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../imagens/css.ico" type="image/x-icon">
+    <title>Criando botões</title>
+</head>
+<body>
+    <main>
+        <h1 class="titulo">Como criar botões</h1>
+        <h2 class="destaque">Passo a passo de como criar um botão</h2>
+        <p>Para criarmos um botão em html5 e css3, usamos a tag &lt;div&gt; com uma classe expecifica para botões, e editamos sua classe para criarmos um botão <br>
+        como por exemplo</p>
+        <div  class="link">Botão de teste</div>
+        <p>Para criarmos esse efeito, o codigo fica assim:</p>
+        <p>EM HTML:</p>
+        <pre>
+            <code>
+                &lt;div class="<abbr title="Que no caso foi a classe que eu criei">link</abbr>"&gt;Botão de teste&lt;/div&gt;
+            </code>
+        </pre>
+        <p>EM CSS:</p>
+        <pre>
+            <code>
+                <abbr title="tab e classe">div.link</abbr>{
+                    <abbr title="faz ficarem alinhado na horizontal">display: inline-block;</abbr>
+                    <abbr title="faz seu fundo ficar de alguma cor">background-color: rgb(140, 140, 218);</abbr>
+                    <abbr title="cor da fonte">color: #000000;</abbr>
+                    <abbr title="linha limite do botão">border: 1px solid black;</abbr>
+                    <abbr title="arredonda os cantos do botão">border-radius: 5px;</abbr>
+                    <abbr title="altura do botão">height: 19px;</abbr>
+                    <abbr title="largura do botão, que no caso coloquei auto para que se auto-adaptasse ao seu texto">width: auto;</abbr>
+                    <abbr title="alinhamento do texto">text-align: center;</abbr>
+                    
+                }
+                div.link:<abbr title="parametro que faz o botão ser ativo ao passar o mouse em cima">hover</abbr>{
+                    <abbr title="cor que o botão ficara quando passar o mouse">background-color: rgb(83, 83, 128);</abbr>
+                    <abbr title="cor que a fonte ficara ao passar o mouse">color: wheat;</abbr>
+                }  
+            </code>
+        </pre>
+        <p>Para fins explicativos eu coloquei oque cada coisa faz, é so passar o mouse em cima do que tiver duvida do que faz</p>
+    </main>
+    
+    <div class="voltar"><a href="../hub.html">Voltar</a></div>
+</body>
+</html>

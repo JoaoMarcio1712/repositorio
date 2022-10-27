@@ -1,0 +1,79 @@
+@charset "ytf-8";
+*{
+    margin: auto;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding-top: 30px;
+    height: 905px;
+    width: 200px;
+    display: flexbox;
+    margin: -15px 5px 5px 5px;
+    background-color: gray;
+}
+main{
+    background-color: gray;
+    max-width: 2400px;
+    min-height: 895px;
+    display: flexbox;
+    margin: -920px 5px 0px 218px;
+    display: grid;
+    padding-bottom: 20px;
+    
+}
+footer{
+    background-color: rgb(51, 51, 51);
+    height: 19px;
+    max-width: 1925px;
+    margin-top: 5px;
+    padding-bottom: 25px;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    display: block;
+    background-color: rgb(140, 140, 218);
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 19px;
+    width: auto;
+    text-align: center;
+    padding: 0.5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.link:hover{
+    background-color: rgb(83, 83, 128);
+    color: wheat;
+    
+}
+.link:active{
+    color: aqua;   
+}
+.curso{
+    background-color: gray;
+    margin: -205px 1px 1px 1px;
+}
+.destaque{
+    background-image: linear-gradient(g);
+}
+.conteudo{
+    height: 50px;
+    margin-bottom: -50;
+}
+.fotoinicio{
+    margin: 10px auto 0px auto;
+}
+.tituloprincipal{
+    font-weight: bolder;
+    font-size: 5em;
+    font-family: cursive;
+    margin: 50px auto 0px;
+}

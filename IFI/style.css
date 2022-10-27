@@ -1,0 +1,170 @@
+@charset "utf-8";
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d9e3eb;
+}
+.fundo{
+    max-width: 1250px;
+    min-width: 490px;
+}
+
+header{
+    background-color: #1A5CBC;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 500px;
+    color: white;
+    height: 190px
+}
+h1{
+    margin: 0px auto 0px 160px;
+}
+header > div > div.cabeçalho > p{
+    margin: 0px auto 0px 160px;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+.titulo{
+    display: block;
+    margin: auto;
+}
+header > div > img{
+    margin-top: 0.5cm;
+    margin-right: 1px;
+    margin-bottom: -134px;
+    margin-left: 1px;
+    width: 130px;
+    height: 150px;
+    display: inline;
+}
+
+main{
+    max-width: 1200px;
+    min-width: 490px;
+}
+
+main > div > div.home{
+    padding: 0px 30px;
+    
+}
+main > div > div.home > p > a{
+    color: white;       
+} 
+main > div > div.home > p > a:hover{
+    text-decoration: underline white;
+}
+
+.cabeçalho{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -12px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.alinhamento{
+    margin-left: 30px;
+}
+.busca{
+    display: inline-flex;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-radius: 15px;
+    color: rgba(128, 128, 128, 0.582);
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 50pc;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.busca > p{
+    font-size: small;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+.fundo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 1230px;
+    border-radius: 15px;
+    height: auto;
+}
+.intranet{
+    font-style: italic;
+    display: grid;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: serif;
+    margin-top: -60px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 59pc;
+}
+.menu{
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    color: blue;
+}
+.menu:hover{
+    text-decoration: underline;
+    
+}
+
+.abaixo{
+    margin-left: 30px;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+.menu{
+    font-size: 0.8em;
+    margin-left: 25px;
+}
+
+div.menu.home > p > a{
+margin-left: 11px;
+}
+div.menu.home > p > a{
+    border-radius: 5px;
+    text-align: left;
+    background-color: #1A5CBC;
+    width: 63px;
+    height: 20px;
+    margin-left: -20px;
+}
+.menu > span > ul{ 
+    display: none;
+}
+.menu:hover > span > ul {
+    display: block;
+}
+main{
+    height: 1500px;
+}
+div.menu > span.caixamenu{
+    margin-top: 500px;
+    background-image: none;
+}
+ul{
+    text-decoration: none;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    background-color: rgba(190, 189, 185, 0.486);
+}

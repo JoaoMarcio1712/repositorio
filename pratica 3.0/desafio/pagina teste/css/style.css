@@ -1,0 +1,123 @@
+@charset "utf-8";
+body{
+    margin-top: 0px;
+    background-color: #c5ebd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{ 
+    width: fit-content;
+    margin: -20px 50px;  
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.219);
+    padding-left: 20px;
+}
+
+header{
+    margin: -23px -8px 0px -8px;
+    padding-top: 15px;
+    height: 150;
+    width: auto;
+    color: white;
+    background-image: linear-gradient(180deg, #32c574 ,  #153d28   );
+    text-align: center;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.548);
+}
+
+header > div.menu > a{
+    color:  #87d8b1;
+    text-decoration: none;
+    display: inline-table;
+    padding: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+header > div.menu > a:hover{
+    color: #195B38;
+    text-decoration: none;
+    background-color: #25975F;
+    padding: 5px;
+    border-radius: 3px;
+    text-shadow: none;
+}
+.menu{
+    margin-left: 15px;
+   text-align: justify;
+}
+
+.titulo{
+    text-shadow: 1px 1px 3px black;
+}
+
+.sub-titulo{
+    color: #153d28;
+    background-image: linear-gradient(90deg, #3d8f5ea4, white);
+}
+
+main > div.cabeçalho > p.texto {
+    margin-left: 10px;
+}
+
+.cabeçalho{
+    border-radius: 10px 10px 0px 0px;
+    margin-right: 20px;
+    margin-bottom: -16px;
+    color: white;
+    background-color: #195B38;
+}
+
+.tabela > p {
+    margin-left: 10px;
+}
+
+.tabela{
+    border-radius: 0px 0px 10px 10px;
+    margin-right: 20px;
+    margin-top: 0px;
+    background-color: #80E2AB;
+}
+p.texto-tabela{
+    margin-left: 50px;
+}
+footer{
+    margin-bottom: -16px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+    background-color: #195B38;
+}
+.video{
+    margin: auto;
+    width: 350px;
+}
+div.foto{
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+backgroud-color: #84E1AD(body)
+--------------------------------------------------------
+color: #43795B(main)FONTE
+--------------------------------------------------------
+backgroud-color: #3CD983(cabeçalho)\\\\
+                                        GRADIENTE
+backgroud-color: #195B38(cabeçalho)////
+--------------------------------------------------------
+backgroun-color: #1A5C38(video e rodapé)
+--------------------------------------------------------
+backgroun-color: #2FA866(cabeçalho quadro de listas)
+background-color: #C5EBD6 (corpo cabeçalho)
+*/

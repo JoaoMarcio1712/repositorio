@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; url=index.html">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Imagens/6.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <main>
+        <h1>Trabalhando com listas</h1>
+        <h2>Listas ordenadas</h2>
+        <p>Para criar-mos uma lista, usamos o codigo <abbr title="Listas ordenadas">&lt;ol&gt;</abbr> seguido pela tag &lt;li&gt;,<br>
+        Siga o exemplo das tags a seguir:</p>
+        <pre>
+            <code>
+            &lt;ol <abbr title="tipo de lista, sendo ela, numerica, alfabetica ou romana">type="1"</abbr> <abbr title="de qual contagem ira começar">start="1"</abbr>&gt;
+                &lt;li&gt;acordar&lt;/li&gt;
+                &lt;li&gt;ligar para joao&lt;/li&gt;
+                &lt;li&gt;tomar cafe&lt;/li&gt;
+                &lt;li&gt;escovar os dentes&lt;/li&gt;
+                &lt;li&gt;ir para faculdade&lt;/li&gt;
+                &lt;li&gt;almoçar&lt;/li&gt;
+                &lt;li&gt;ir para o trabalho&lt;/li&gt;
+                &lt;li&gt;voltar para casa&lt;/li&gt;
+                &lt;li&gt;jantar&lt;/li&gt;
+                &lt;li&gt;dormir&lt;/li&gt;
+            &lt;/ol&gt;
+            </code>
+        </pre>
+        <p>E a seguir a tag na pratica:</p>
+        <ol type="1" start="1"> <!--1 A a I i-->
+            <li>acordar</li>
+            <li>ligar para joao</li>
+            <li>tomar cafe</li>
+            <li>escovar os dentes</li>
+            <li>ir para faculdade</li>
+            <li>almoçar</li>
+            <li>ir para o trabalho</li>
+            <li>voltar para casa</li>
+            <li>jantar</li>
+            <li>dormir</li>
+        </ol>
+        <h2>Listas não ordenadas</h2>
+        <p>Para fazermos uma lista não ordenada, usamos a tag &lt;ul&gt; seguido também pela tag &lt;li&gt;, <br>
+        Siga o exemplo da tag a seguir:</p>
+        <pre>
+            <code>
+            &lt;ul <abbr title="Sendo, disc=Disco, Circle=circulo e square=quadrado">type="square"</abbr>&gt;
+                &lt;li&gt;pão&lt;/li&gt;
+                &lt;li&gt;manteiga&lt;/li&gt;
+                &lt;li&gt;Leite&lt;/li&gt;
+                &lt;li&gt;alface&lt;/li&gt;
+                &lt;li&gt;arroz&lt;/li&gt;
+            &lt;/ul&gt;
+            </code>
+        </pre>
+        <p>E a seguir a tag na pratica:</p>
+        <ul type="square"> <!--disc circle square-->
+            <li>pão</li>
+            <li>manteiga</li>
+            <li>Leite</li>
+            <li>alface</li>
+            <li>arroz</li>
+            </ul>
+            <h2>também conseguimos misturar as 2 listas</h2>
+            <p>Misturandop as 2 usando a tag &lt;ol&gt;, com a tag &lt;ul&gt; dentro dela, ou vive-versa, <br>
+            Siga o exemplo a seguir:</p>
+            <pre>
+                <code>
+             &lt;ol&gt;
+                 &lt;li&gt;antigas&lt;/li&gt;
+                 &lt;ul&gt;
+                     &lt;li&gt;html&lt;/li&gt;
+                     &lt;li&gt;css&lt;/li&gt;
+                     &lt;li&gt;java script&lt;/li&gt;
+                 &lt;/ul&gt;
+                 &lt;li&gt;novas&lt;/li&gt;
+                 &lt;ul&gt;
+                     &lt;li&gt;nao tem nada&lt;/li&gt;
+                     &lt;li&gt;nao tem nada&lt;/li&gt;
+                     &lt;li&gt;nao tem nada&lt;/li&gt;
+        
+                 &lt;/ul&gt;
+             &lt;/ol&gt;
+                </code>
+            </pre>
+            <p>Ficando assim na pratica:</p>
+            <p>Minhas linguagens de programação favoritas</p>
+        <ol>
+            <li>antigas</li>
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>java script</li>
+            </ul>
+            <li>novas</li>
+            <ul>
+                <li>nao tem nada</li>
+                <li>nao tem nada</li>
+                <li>nao tem nada</li>
+            </ul>
+        </ol>
+        <h2>Temos também as listas com definições</h2>
+        <p>para listas de definições, usamos a tag &lt;dl&gt; com a tag <abbr title="o referente item a ser definido">&lt;dt&gt;, <br> e, <abbr title="definiçao do item">&lt;dd&gt;</abbr></abbr>, ficando assim o codigo:</p>
+        <pre>
+            <code>
+                &lt;dl&gt;
+                    &lt;dt&gt;HTMLe&lt;dt&gt;
+                    &lt;dd&gt;Linguagem de marcação paa criação do conteudo de um sitee&lt;dd&gt;
+                    &lt;dt&gt;css&lt;dt&gt;
+                    &lt;dd&gt;Linguagem de marcação para a criação de design de um sitee&lt;dd&gt;
+                    &lt;dt&gt;JavaScript&lt;dt&gt;
+                    &lt;dd&gt;Linguagem de programação para criação de interatividade de um site&lt;/dd&gt;
+                &lt;dl&gt;
+            </code>
+        </pre>
+        <p>E na pratica assim:</p>
+        <dl style="color: goldenrod;">
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação paa criação do conteudo de um site</dd>
+            <dt>css</dt>
+            <dd>Linguagem de marcação para a criação de design de um site</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para criação de interatividade de um site</dd>
+        </dl>
+        
+    </main>
+    <div><a href="../paginaprincipal.html"><img src="../Desafios/imagens-desafio/voltar.png" alt="" width="35" height="35"></a></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de inserção de imagens</title>
+    <link rel="shortcut icon" href="../Imagens/3.ico" type="image/x-icon">
+    <meta http-equiv="refresh" content="3; url=imagens.html">
+    <link rel="stylesheet" href="../style.css">
+    
+    
+</head>
+<body>
+    <main>
+        <h1 style="color: cian;">Inserindo imagens</h1>
+        <img src="../Imagens/1216733.png" alt="HTML5">
+        <p>Para usar uma imagem como icone da pagina, <br>
+            usamos o comando &lt;link rel="shortcut icon" href="NOME DA IMAGEM DESEJADA" type="image/x-icon"&gt;</p>
+            <p>Para inserir uma imagem (como eu fiz com a logo do html), eu usei a tag &lt;img&gt; <br>
+                &lt;img src="IMAGEM DESEJADA" alt="<abbr title="isso faz com que a imagem tenha uma descrição, caso alguem seja deficiente visual e use acessibilidade, oque ele irá ouvir será essa descrição">DESCRIÇÃO DA IMAGEM</abbr>"&gt;
+            </p>
+            <p>Mas para representar uma tag, sem realmente abrir uma tag, <br>
+                usamos o codigo de entidades do html, como podemos ver nessa tabela:</p>
+                <img src="../Imagens/Tabela de entidades html.png" alt="Tabela de entidades html">
+                <h1>Imagens dinâmicas</h1>
+                <p>Aqui vamos aprender a colocar uma imagem dinamica,<br> que se adapta ao tamanho da tela do seu usuario; <br> Para isso precisamos ter varias fotos de tamanhos diferentes, <br> de preferencia 3: </p>
+                    <ul>
+                        <li>uma pequena(para celulares)</li>
+                        <li>uma meida(para telas de pc que nao estão maximizadas) </li>
+                        <li>uma grande(para telas de pc que estão maximizadas)</li>
+                    </ul>
+                         <p>Aqui vou colocar um exemplo.</p>
+                <picture>
+        
+                    <source media="(max-width: 725px)" srcset="../imagens/foto-p.png" type="image/png">
+                    <source media="(max-width: 1025px)" srcset="../imagens/foto-m.png" type="image/png">
+                    <img src="../Imagens/foto-g.png" alt="imagen flexivel">
+                </picture>
+            <p>Para fins de teste, tente mudar o tamanho da tela do navegador para ver na pratica como funciona a imagem dinamica, <br>
+            para esse tipo de imagem, usamos a tag &lt;picture&gt;, veja como fica o codigo:</p>
+            <pre>
+                <code>
+        &lt;picture&gt;
+            &lt;source media="(max-width: 725px)" srcset="../imagens/foto-p.png" type="image/png"&gt;
+            &lt;source media="(max-width: 1025px)" srcset="../imagens/foto-m.png" type="image/png"&gt;
+            &lt;img src="../Imagens/foto-g.png" alt="imagen flexivel"&gt;
+        &lt;/picture&gt;
+                </code>
+            </pre>
+    </main>
+
+        <div><a href="../paginaprincipal.html"><img src="../Desafios/imagens-desafio/voltar.png" alt="" width="35" height="35"></a></div>
+    
+</body>
+</html>

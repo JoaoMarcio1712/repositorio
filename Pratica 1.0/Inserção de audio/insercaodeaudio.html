@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; url=insercaodeaudio.html">
+    <link rel="shortcut icon" href="../Imagens/5.ico" type="image/x-icon">
+    <meta http-equiv="refresh" content="; url=insercaodeaudio.html">
+    <link rel="stylesheet" href="../style.css">
+    <title>Audio</title>
+</head>
+<body>
+    <main>
+        <h1>Inserções de audios</h1>
+        <p class="exemple">Para inserir um audio, basta você usar a tag <pre>&lt;audio <abbr title="escolhe qual o arquivo que será reproduzido">src</abbr>="arquivo desejado" <abbr title="comando dado para aparecer os controles de audio">controls</abbr>&gt;</pre></p>
+        <p class="exemple">A seguir eu colocarei um audio de teste</p>
+        <audio src="" controls rel="external"></audio>
+        <p class="exemple">Ou tembem temos outro jeito de colocar um audio, que no caso</p>
+        <pre>
+            &lt;audio preload="metadata" <abbr title="usado para iniciar o audio assim que a pagina term,mina de carregar">autoplay</abbr> <abbr title="usado para aparecer os comandos de audio">controls</abbr> <abbr title="usado para quando a musica terminar, ela reiniciar">loop</abbr>&gt;
+                &lt;source src="algum_audio.mp3" type="audio/mpeg"&gt;
+                &lt;source src="algum_audio.ogg" type="audio/ogg"&gt;
+                vsource src="algum_audio.wav" type="audio/wav"&gt;
+                &lt;p&gt;Desculpe, mas seu navegador não é compativel com nenhum tipo de audio em nossos servidores&lt;/p&gt;
+                &lt;/audio&gt;
+        </pre>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="algum_audio.mp3" type="audio/mpeg">
+            <source src="algum_audio.ogg" type="audio/ogg">
+            <source src="algum_audio.wav" type="audio/wav">
+            <p class="exemple">Desculpe, mas seu navegador não é compativel com nenhum tipo de audio em nossos servidores</p>
+        </audio>
+        <p class="exemple">Aqui nesse exemplo, eu coloquei 3 tipos de audio na tag, <br>
+        para que no caso do navegador não ter compatibilidade com algum, <br>
+        carregue o proximo, e se por ventura o navegador nao ser compativel com nenhum, <br>
+         apareça a mensagem de que nao é compativel com nenhum tipom de audio disponivel</p>
+    </main>
+
+     <div><a href="../paginaprincipal.html"><img src="../Desafios/imagens-desafio/voltar.png" alt="" width="35" height="35"></a></div>
+    
+</body>
+</html>
