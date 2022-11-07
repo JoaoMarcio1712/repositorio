@@ -11,20 +11,23 @@
         margin: 0px;
     }
     body{
-        background-color: black;
-        background-image: url(imagens/wallpaper002.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
         background-size: cover;
-        background-attachment: fixed;
         height: 100vh;
+        /*ShortHand Background
+        
+        color > image > position > repet > [size] > attachment
+
+        [size esta nas regras do w3c, porem os navegadores ainda nao aceitao essa declaração]
+
+        */
     }
     main{
         background-color: white;
         min-width: 400px;
         max-width: 950px;
         padding: 10px;
-        margin: auto;
+        margin: 30px;
         border: 1px solid darkblue;
         border-radius: 15px;
     }
